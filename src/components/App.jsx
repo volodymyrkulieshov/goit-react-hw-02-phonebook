@@ -53,7 +53,7 @@ class App extends Component {
     const visibleContacts = this.FilteredContacts();
     const { filter } = this.state;
     return (
-      <>
+      <div className={css.container}>
         <h1 className={css.title}>Phonebook</h1>
         <ContactForm onSubmit={this.addContact} />
         <h2 className={css.subTitle}>Contacts</h2>
@@ -67,7 +67,7 @@ class App extends Component {
             onRemoveContact={this.removeContact}
           />
         )}
-      </>
+      </div>
     );
   }
 }

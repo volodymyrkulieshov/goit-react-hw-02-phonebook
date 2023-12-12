@@ -14,17 +14,14 @@
 }
 .deleteButton {
   display: flex;
-  align-items: center;
-  gap: 10px;
+  margin-left: auto;
   padding: 1px 6px;
-
   background-color: transparent;
   border: 1px solid grey;
   border-radius: 4px;
   &:hover {
     background: rgb(88, 142, 240);
-    border: #ffffff;
     color: #ffffff;
-    font-weight: 500;
+    cursor: pointer;
   }
 }
